@@ -9,7 +9,8 @@ header {
     padding: 1rem 2rem;
     background-color: rgb(225, 138, 190);
     /* Separa la cabecera de la tarjeta. */
-    margin-bottom: 2rem;
+    margin: 2rem;
+    
 }
 
 /* Imagen del logo. */
@@ -24,7 +25,8 @@ h1 {
     /* Hace que el título ocupe el espacio libre después del logo. */
     flex: 1;
     text-align: center;
-    
+    /* Elimina el margen que el navegador añade al título por defecto. */
+    margin: 0;
     font-size: 3rem;
 }
 
