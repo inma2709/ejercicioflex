@@ -2,6 +2,11 @@
 
 Recibirás el archivo `index.html` y la imagen `rana.png`, pero no una hoja de estilos. Crea un archivo llamado `styles.css`. Verifica que queda correctamente enlazado.
 
+Aqui tienes la página que debe resultar
+
+https://ejercicioflex-omega.vercel.app/
+
+
 El objetivo es practicar las propiedades básicas de **Flexbox** creando una cabecera y una tarjeta de producto. Dos de los productos mas habituales que vamos a crear con FLEX.
 
 ## 1. Cabecera
