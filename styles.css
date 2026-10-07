@@ -1,0 +1,76 @@
+/* CABECERA */
+
+header {
+    /* Activa Flexbox para colocar el logo y el título en una misma fila. */
+    display: flex;
+    /* Centra verticalmente los elementos de la cabecera. */
+    align-items: center;
+    /* Añade espacio interior: arriba/abajo y derecha/izquierda. */
+    padding: 1rem 2rem;
+    background-color: rgb(225, 138, 190);
+    /* Separa la cabecera de la tarjeta. */
+    margin-bottom: 2rem;
+}
+
+/* Imagen del logo. */
+img {
+    width: 4rem;
+    /* Convierte la imagen cuadrada en un círculo. */
+    border-radius: 50%;
+}
+
+/* Título de la cabecera. */
+h1 {
+    /* Hace que el título ocupe el espacio libre después del logo. */
+    flex: 1;
+    text-align: center;
+    
+    font-size: 3rem;
+}
+
+/* CONTENEDOR DE LA TARJETA */
+
+main {
+    /* Convierte main en un contenedor Flexbox. */
+    display: flex;
+    /* Centra horizontalmente su hijo directo: article. */
+    justify-content: center;
+}
+
+/* TARJETA */
+article {
+    /* Sus elementos internos se colocan usando Flexbox. */
+    display: flex;
+    /* Ordena la imagen, el texto y el botón de arriba hacia abajo. */
+    flex-direction: column;
+    /* Centra los elementos en el eje vertical de la tarjeta. */
+    justify-content: center;
+    /* Centra los elementos en horizontal. */
+    align-items: center;
+    width: 20rem;
+    /* Evita que la tarjeta sea demasiado estrecha. */
+    min-width: 10rem;
+    padding: 1.5rem;
+    border: 2px solid rgb(234, 15, 176);
+    text-align: center;
+}
+
+/* Selecciona solo las imágenes que están dentro de article. */
+article img {
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+/* BOTÓN */
+button {
+    /* El botón ocupa todo el ancho disponible de la tarjeta. */
+    width: 100%;
+    padding: 1rem;
+    /* Elimina el borde predeterminado del navegador. */
+    border: 0;
+    border-radius: .5rem;
+    background-color: rgb(234, 15, 176);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
